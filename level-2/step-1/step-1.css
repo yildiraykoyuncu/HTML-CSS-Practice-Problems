@@ -12,6 +12,7 @@
     background: #D8D8D8;
 }
 
+
 /*  Step-1 You need to get all of these elements to line up side by side. What display property would do this for you? */
 
 .menu {
@@ -26,8 +27,6 @@
     height: 40px;
     margin-top: 10px;
     background: #536A63;
-    display: inline-block;
-
 }
 
 .sign-in {
@@ -35,4 +34,10 @@
     height: 40px;
     background: #536A63;
     float: right;
+}
+
+.menu,
+.logo,
+.sign-in {
+    display: inline-block;
 }
